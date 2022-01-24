@@ -1,0 +1,171 @@
+*{
+box-sizing: border-box;
+}
+
+body {
+	background-color:#E7E9EB ;
+    font-size: 15px;
+    font-family: Cairo;
+    margin: 0;
+    height: 700px;
+}
+
+/*start nav*/ 
+nav {
+    background-color: #282A35;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*styling pages' list*/
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul li {
+    font-size: 20px;
+}
+
+/*styling links and hover*/
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 10px;
+
+}
+
+nav ul a:hover, nav ul a.active {
+    background-color: #00cc66;
+    color: white;
+
+}
+
+/*logo on the left of navbar*/
+#logo {
+    height: 70px;
+    width: 70px;
+    margin: 10px 0 0 5px;
+
+}
+
+/*div for list of pages on right of nav*/
+.pages {
+    margin-top: 10px;
+    width: 700px;
+}
+/*end of navbar*/
+
+.firstParagraph {
+	margin: 17px 20px;
+	width: 700px;
+	background-color: #282A35;
+	color: white;
+	padding: 10px 10px 15px 10px;
+	font-size: 18px;
+	box-shadow: -4px 6px 25px 0px rgba(0,0,0,0.75);
+}
+
+/*green square for article page*/
+.readMore-link {
+	margin: 17px 20px;
+	border: 1px solid #282A35;
+	padding: 8px;
+	border-radius: 10px;
+	background-color:#339966;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	margin-right: 400px;
+	
+}
+/*end of green square*/
+
+/*start styling article page for Ahmed's family*/
+.big-div-article {
+	margin-top: 50px;
+}
+
+.article-image {
+	margin-top: 2px;
+	padding-right: 10px;
+	padding-left: 100px;
+	width: 600px;
+	height: 400px;
+	float: left;
+	position: sticky;
+	top: 0;
+	left:0;
+}
+
+.article {
+	background-color: #cccccc; 
+	margin-right: 50px; 
+	margin-top: 0; 
+	font-size: 17px; 
+	margin-bottom: 20px; 
+	margin-left: 700px;
+	padding: 25px;
+	color: black;
+			
+}
+/* end of styling article page for Ahmed's family*/
+
+/*continue styling in opinions page*/
+.opinions-head {
+	text-align: center;
+	border-radius: 50px;
+	border: 1px solid white;
+	background-color: #282A35;
+	width: 40%;
+	color: white;
+	margin-top: 20px;
+	margin-right: 400px;
+}
+
+.firstVideo {
+	padding-top: 10px;
+	padding-left: 5px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+.secondVideo {
+	float: left;
+	padding-left: 5px;
+	margin-bottom: 20px;
+}
+
+.thirdVideo {
+	float: left;
+	padding-left: 5px;
+	margin-bottom: 20px;
+}
+
+.videoHeads {
+	border-style: inset;
+	border-color: white;
+	border-width: 2px;
+	border-radius: 50px;
+	color: white;
+	background-color: #282A35;
+	text-align: center;
+	width: 325px;
+	margin-right: 20px;
+	float: right;
+	margin-left: 100px;
+	font-size: 20px;
+	margin-top: 100px;
+
+}
+
+/*end of styling opinions page*/
+
+
+
+

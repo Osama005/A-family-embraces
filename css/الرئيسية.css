@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Cairo;
+    margin: 0;
+    height: 800px;
+
+}
+
+/* start of navbar*/
+nav {
+    background-color: #282A35;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*styling pages' list*/
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul li {
+    font-size: 20px;
+}
+
+/*styling links and hover*/
+a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 10px;
+
+}
+
+nav ul a:hover, nav ul a.active {
+    background-color: #00cc66;
+    color: white;
+
+}
+
+/*logo on the left of navbar*/
+#logo {
+    height: 70px;
+    width: 70px;
+    margin: 10px 0 0 5px;
+
+}
+
+/*div for list of pages on right of nav*/
+.pages {
+    margin-top: 10px;
+    width: 700px;
+}
+/*end of navbar*/
+
+/*start of header and photo and passage in the headeer*/
+.header {
+    background-color: #00cc66;
+    height: 445px;
+}
+
+.homePhoto {
+    width: 670px;
+    height: 444px;
+    float: left;
+    box-shadow: 4px 6px 25px 0px rgba(0,0,0,0.75);
+}
+
+.heading {
+    background-color: #282A35;
+    height: 300px;
+    width: 500px;
+    color: white;
+    padding: 15px;
+    box-shadow: -4px 6px 25px 0px rgba(0,0,0,0.75);
+    position: relative;
+    top: 55px;
+    right: 20px;
+}
+
+.firstHead {
+    color: #00cc66;
+    border-right: 2px solid #00cc66;
+    padding: 15px;
+}
+
+.headerParagraph {
+    padding-right: 12px;
+    padding-bottom: 12px;
+    font-size: 17px;
+}
+
+.header b {
+    color:#00cc66
+}
+/*end of header and photo and passage in the headeer*/
+
+/*start of statistics*/
+.card {
+    display: flex;
+    justify-content: space-around;
+    background-color: #282A35;
+    width: 100%;
+
+} 
+
+.sub-card {
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    margin: 10px 20px 10px 10px;
+    border-right: 2px solid #00cc66;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-card .icon {
+    color: #00cc66;
+
+}
+
+.sub-card .numbers {
+    margin: 10px 0;
+}
+
+.sub-card .sentence {
+    margin: 10px 0;
+}
+/*end of statistics*/
+
+/*start of embracing section*/
+.embracing {
+    background-color: whitesmoke;
+    height: 800px;
+}
+
+.embracing-head {
+    text-align: center;
+    color: #282A35;
+    margin-top: 0px;
+
+}
+
+.embracing-line {
+    width: 15px;
+    height: 3px;
+    background-color: #00cc66;
+    border: none;
+}
+
+.embracing-def-section {
+    padding: 10px;
+    float: right;
+}
+
+.embracing-defination {
+    font-size: 17px;
+    color:#282A35;
+}
+
+.image-kid {
+    width: 210px;
+    height: 200px;
+    float: left;
+
+}
+
+.conditions {
+    list-style-type: square;
+    font-size: 17px;
+}
+
+ .helpful-link {
+    text-decoration: none;
+    color: #00cc66;
+    padding: 2px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.steps {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-right: 125px;
+}
+
+#bigHead {
+    text-align: center;
+    color: #282A35;
+    padding: 10px;
+}
+
+.sub-step {
+    background-color: #282A35;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: -4px 6px 25px 0px rgba(0,0,0,0.75);
+}
+
+.steps-head {
+    color: #00cc66;
+}
+
+.steps-paragraph {
+    color: white;
+}
+
+/*start of events section*/
+.events {
+    background-color: #282A35;
+    height: 600px;
+    
+}
+.events-head {
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+.iframe {
+    padding: 15px;
+    float: left;
+    width: 700px;
+    height: 425px;
+
+}
+
+.events-passage {
+    width: 640px;
+    padding: 15px;
+    float: right;
+}
+
+.eventsPassage {
+    color:white;
+}
+/*end of events section*/
+
+/*start of foundations section*/
+.foundations {
+    background-color: #00cc66;
+}
+
+.foundations-head {
+    text-align: center;
+    color: #282A35;
+    margin-top: 0;
+
+}
+
+.foundation-line {
+    width: 15px;
+    height: 3px;
+    background-color: #282A35;
+    border: none;
+
+}
+/*end of foundation section*/

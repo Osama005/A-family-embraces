@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#E7E9EB ;
+    font-size: 15px;
+    font-family: Cairo;
+    margin: 0;
+    height: 800px;
+}
+
+/* start of navbar*/
+nav {
+    background-color: #282A35;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*styling pages' list*/
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav ul li {
+    font-size: 20px;
+}
+
+/*styling links and hover*/
+a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 10px;
+
+}
+
+nav ul a:hover, nav ul a.active {
+    background-color: #00cc66;
+    color: white;
+
+}
+
+/*logo on the left of navbar*/
+#logo {
+    height: 70px;
+    width: 70px;
+    margin: 10px 0 0 5px;
+
+}
+
+/*div for list of pages on right of nav*/
+.pages {
+    margin-top: 10px;
+    width: 700px;
+}
+/*end of navbar*/
+
+/*image on the left of the page*/
+.img2{
+    float: left;
+    margin-left: 20px;
+    width: 600px;
+    border-radius: 50%;
+}
+/*end of image*/
+
+/*green head for first paragraph*/
+.head1 {
+    color:#00cc66;
+    background-color: #282A35;
+    margin-bottom: 0;
+    margin-right: 20px;
+    padding-bottom: 0;
+    width: 250px;
+}
+/*end of green head for first paragraph*/
+
+/*two paragraphs*/
+.paragraphs {
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-width: 1px;
+    width: 50%;
+    font-size: 18px;
+    background-color:#282A35;
+    color: white;
+    box-shadow: -4px 6px 25px 0px rgba(0,0,0,0.75);
+}
+/*starting head of the form part*/
+h3 {
+    color: #00cc66;
+}
+
+/*styling the form*/
+#div1{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    width: 30%;
+    color: white;
+    border-width: 1px;
+    background-color:#282A35 ;
+}
+/*end of styling the form*/
+
+
+
